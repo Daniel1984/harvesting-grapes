@@ -1,0 +1,20 @@
+{
+  "name": "orderbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ignore node_modules **/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grenache-nodejs-link": "^0.7.12",
+    "grenache-nodejs-ws": "^0.7.9",
+    "uws": "^10.148.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
